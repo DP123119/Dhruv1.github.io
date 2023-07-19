@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Dhruv Patel </title>
+	<style>
+		body{
+			color: black;
+			font-family: 'Nunito Semibold';
+			text-align: center;
+            
+		}
+		#content{
+			display: grid;
+			grid-template-columns: 1fr 1fr 1fr 1fr;
+			grid-auto-rows:;
+			max-width: 1500px;
+            max-height: 1100px;
+			margin: 0 auto;
+            border: 1px solid black
+		}
+		#content > *{
+			padding: 10px;
+            border: 1px solid black
+		}
+		
+        images{
+            grid-column-start: 4;
+            grid-column-end: 5;
+            background-color: #e82b69;
+        }
+
+		main{
+			grid-column-start: 1;
+            grid-column-end: 4;
+			background: #E5FFF7;
+            height: 550px;
+            
+            
+            
+		}
+
+        
+
+        nav{
+			grid-column-start: 2;
+            grid-column-end: 5;
+			background: #14855c;
+            height: 70px ;
+        }
+		logo{
+			grid-column-start: 1;
+            grid-column-end: 2;
+			background: #4be3b0;
+            height: 70px;
+		}
+		info{
+            grid-column: span 4;
+            background-color: coral;
+            max-height: max-content 12px;
+        }
+		footer{
+			grid-column: span 4;
+			background: #14855c;
+			background: ;
+            height: 40px; 
+		}
+        .nested{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+            grid-gap: 10px;
+        }
+        .nested p {
+            border: 1px solid black;
+            padding: 20px;
+            margin: 0; 
+            background: white
+        }
+        .nested2 {
+            display: grid;
+            grid-template-columns: 30% 60% 10%;
+            
+             
+        }
+        .nested2 p{
+            border: 1px solid black;
+            padding: 20px;
+            margin: 0; 
+            background-color: #20C488;
+            text-align: center;
+    
+        }
+        p2 {
+            font-size: 20px;
+            padding: 0;
+            margin: 0;
+        }
+        .nested3 {
+            display: grid;
+            grid-template-columns: auto;
+        }
+        .nested3 p4 {
+            border: 3px solid coral;
+            padding: 10px;
+            margin: 10px;
+            height: 500px;
+            grid-column-start: 1;
+            grid-column-end: 2;
+            text-align: left;
+            
+
+
+        }
+        p4 {
+            font-size: 20px
+        }
+        
+	</style>
+</head>
+<body>
+
+	<div id="content">
+
+	
+		<logo> <h2> Dhruv Patel </h2> </logo>
+		<nav class="nested">
+            <p> 
+             <a href="index.html">Home</a>   
+            </p>
+            <p> 
+            <a href="index2.html">About</a>   
+            </p>
+            <p> 
+            <a href="index3.html">Skills</a>   
+            </p>
+            <p> 
+            Education   
+            </p>
+            <p> 
+            <a href="index5.html">Reference</a>  
+            </p>
+
+
+        </nav>
+        <info class="nested2">
+               <p> 
+               <p2> Education page </p2>   
+               </p>
+               <p> 
+               Contact: <u>dhruv.patel@my.bdsc.school.nz</u> / Socials: Instagram - <u>dhruv.p109</u> / Discord - <u>DP123#6583</u> 
+               </p>
+               <p> 
+                <a href="index6.html">My Pepeha</a>
+               </p>
+
+        </info>
+
+        <main class="nested3">
+            <p4>
+             
+                <p>  
+                     I am currently studying at Botany Downs Secondary College following a technology pathway. As of now I plan on working towards a skill set which will lead me to work in 
+                     the engineering field or a field following the basis of that. Hence all the optional subjects I chose this year are Electronics, Digital Visual Communications, and Digital Technology.
+                     I have learnt an abundance of knowledge from all these subjects so far, and I will certainly be learning more in the future.
+                </p>
+                <p> 
+                    <u> My Scores </u> <br>
+                    I typically recieve marks ranging from the merit area towards the excellence area, with only a few achieved grades. However I set my work standards quite high and always do my work to the best of 
+                    my qualities to achieve the greatest outcomes.
+
+                </p>
+            </p4>
+        </main>
+        <images> <img src="images1/Macbook.png" alt="Image of Macbook pro" height="220" width="300"> <img src="images1/Electronic circuit.jpeg" alt="Electronic Circuit" height="120" width="250"> <img src="images1/A3paper.webp" alt="A3 Paper and measurement tools" height="180" width="250"> </images>
+		<footer> <h3> ~~~ ◊◊◊◊◊ 'Strive for excellence and success will follow' ◊◊◊◊◊ ~~~ </h3> </footer>
+
+	</div>
+
+</body>
+</html>

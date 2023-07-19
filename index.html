@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Dhruv Patel </title>
+	<style>
+		body{
+			color: black;
+			font-family: 'Nunito Semibold';
+			text-align: center;
+            
+		}
+		#content{
+			display: grid;
+			grid-template-columns: 1fr 2fr;
+			grid-auto-rows:;
+			max-width: 1500px;
+            max-height: 1100px;
+			margin: 0 auto;
+            border: 1px solid black
+		}
+		#content > *{
+			padding: 10px;
+            border: 1px solid black
+		}
+		
+		main{
+			grid-column: span 3;
+			background:#E5FFF7;
+            height: 550px;
+            
+            
+		}
+
+        nav{
+			grid-column: span 2;
+			background: #14855c;
+            height: 70px ;
+        }
+		logo{
+			grid-column: span 1;
+			background: #4be3b0;
+            height: 70px;
+		}
+		info{
+            grid-column: span 3;
+            background-color: coral;
+            max-height: max-content 12px;
+        }
+		footer{
+			grid-column: span 3;
+			background: #14855c;
+			background: ;
+            height: 40px; 
+		}
+        .nested{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+            grid-gap: 10px;
+        }
+        .nested p {
+            border: 1px solid black;
+            padding: 20px;
+            margin: 0; 
+            background: white
+        }
+        .nested2 {
+            display: grid;
+            grid-template-columns: 30% 60% 10%;
+            
+             
+        }
+        .nested2 p{
+            border: 1px solid black;
+            padding: 20px;
+            margin: 0; 
+            background-color: #20C488;
+            text-align: center;
+    
+        }
+        p2 {
+            font-size: 20px;
+            padding: 0;
+            margin: 0;
+        }
+        .nested3 {
+            display: grid;
+            
+        }
+        .nested3 p4 {
+            border: 3px solid #14855c;
+            padding: 20px;
+            margin: 80px;
+            height: 350px;
+            grid-column-start: 1;
+            grid-column-end: 12;
+            text-align: center;
+            background-color: lightcyan;
+            
+
+
+        }
+        h1 {
+            font-size: 120px;
+            font-weight: 200;
+            padding: 60px;
+            margin: 20px;
+        }
+        
+        
+	</style>
+</head>
+<body>
+
+	<div id="content">
+
+	
+		<logo> <h2> Dhruv Patel </h2> </logo>
+		<nav class="nested">
+            <p> 
+             Home  
+            </p>
+            <p> 
+            <a href="index2.html">About</a>   
+            </p>
+            <p> 
+            <a href="index3.html">Skills</a>  
+            </p>
+            <p> 
+            <a href="index4.html">Education</a> 
+            </p>
+            <p> 
+            <a href="index5.html">Reference</a>   
+            </p>
+
+
+        </nav>
+        <info class="nested2">
+               <p> 
+               <p2> Home page </p2>   
+               </p>
+               <p> 
+               Contact: <u>dhruv.patel@my.bdsc.school.nz</u> / Socials: Instagram - <u>dhruv.p109</u> / Discord - <u>DP123#6583</u> 
+               </p>
+               <p> 
+                  <a href="index6.html">My Pepeha</a>
+               </p>
+
+        </info>
+
+        <main class="nested3">
+
+             <p4> <h1>  Dhruv Patel  </h1>
+
+             <p4> Hello, Welcome to my page </p4>
+            </p4>
+            
+        </main>
+
+		<footer> <h3> ~~~ ◊◊◊◊◊ 'Strive for excellence and success will follow' ◊◊◊◊◊ ~~~ </h3> </footer>
+
+	</div>
+    
+</body>
+</html>

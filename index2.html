@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Dhruv Patel </title>
+	<style>
+		body{
+			color: black;
+			font-family: 'Nunito Semibold';
+			text-align: center;
+            
+		}
+		#content{
+			display: grid;
+			grid-template-columns: 1fr 2fr;
+			grid-auto-rows:;
+			max-width: 1500px;
+            max-height: 1100px;
+			margin: 0 auto;
+            border: 1px solid black
+		}
+		#content > *{
+			padding: 10px;
+            border: 1px solid black
+		}
+		
+        images{
+            grid-column: 1fr;
+            background-color:blanchedalmond;
+        }
+
+		main{
+			grid-column: 2fr;
+			background: #E5FFF7;
+            height: 550px;
+            
+            
+            
+		}
+
+        
+
+        nav{
+			grid-column: span 2;
+			background: #14855c;
+            height: 70px ;
+        }
+		logo{
+			grid-column: span 1;
+			background: #4be3b0;
+            height: 70px;
+		}
+		info{
+            grid-column: span 3;
+            background-color: coral;
+            max-height: max-content 12px;
+        }
+		footer{
+			grid-column: span 3;
+			background: #14855c;
+			background: ;
+            height: 40px; 
+		}
+        .nested{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+            grid-gap: 10px;
+        }
+        .nested p {
+            border: 1px solid black;
+            padding: 20px;
+            margin: 0; 
+            background: white
+        }
+        .nested2 {
+            display: grid;
+            grid-template-columns: 30% 60% 10%;
+            
+             
+        }
+        .nested2 p{
+            border: 1px solid black;
+            padding: 20px;
+            margin: 0; 
+            background-color: #20C488;
+            text-align: center;
+    
+        }
+        p2 {
+            font-size: 20px;
+            padding: 0;
+            margin: 0;
+        }
+        .nested3 {
+            display: grid;
+            grid-template-columns: auto;
+            
+        }
+        .nested3 p4 {
+            border: 3px solid #14855c;
+            padding: 10px;
+            margin: 10px;
+            height: 500px;
+            grid-column-start: 1;
+            grid-column-end: 2;
+            text-align: left;
+            
+
+
+        }
+        p4 {
+            font-size: 20px
+        }
+        
+	</style>
+</head>
+<body>
+
+	<div id="content">
+
+	
+		<logo> <h2> Dhruv Patel </h2> </logo>
+		<nav class="nested">
+            <p> 
+             <a href="index.html">Home</a>   
+            </p>
+            <p> 
+            About   
+            </p>
+            <p> 
+            <a href="index3.html">Skills</a>   
+            </p>
+            <p> 
+            <a href="index4.html">Education</a>   
+            </p>
+            <p> 
+            <a href="index5.html">Reference</a>  
+            </p>
+
+
+        </nav>
+        <info class="nested2">
+               <p> 
+               <p2> About page </p2>   
+               </p>
+               <p> 
+               Contact: <u>dhruv.patel@my.bdsc.school.nz</u> / Socials: Instagram - <u>dhruv.p109</u> / Discord - <u>DP123#6583</u> 
+               </p>
+               <p> 
+                <a href="index6.html">My Pepeha</a>
+               </p>
+
+        </info>
+
+        <main class="nested3">
+            <p4>
+             
+                <p>  Hi my name is Dhruv Patel, I was born and raised in New Zealand, but Indian by blood. I am currently 14 years old 
+                    and in my second year of college. At the moment I am aspriring to pursue the field of engineering due to my curiosity and love for 
+                the field. 
+                </p>
+                <p> I enjoy hanging out with my mates and spending time with my family. I also love to play my fair share of favourite sports which are Volleyball and Badminton. Other hobbies I have include 
+                    piano, exercising, and casual gaming. Travelling has also been a favourite of mine because I always love taking in everything the world has to offer, espicially the nature side of it.
+                </p>
+            </p4>
+        </main>
+        <images> <img src="images1/thumbnail_IMG_5095.jpg" alt="Me and my friends" height="200px" width="300px"> <img src="images1/Photo on 22-08-22 at 12.41 PM.jpg" alt="Me and my friend" height="200" width="300"> <img src="images1/Sunset 2.jpeg" alt="Sunset image" height="200" width="300"> <img src="images1/Wanaka tree.jpeg" alt="Image of Wanaka tree" height="300" width="300"> <img src="images1/Pebbles and water.jpeg" alt="Pebbles in water" height="300" width="300"> <img src="images1/Water and rocky mountain.jpeg" alt="lake and rocky mountain" height="300" width="300"> </images>
+		<footer> <h3> ~~~ ◊◊◊◊◊ 'Strive for excellence and success will follow' ◊◊◊◊◊ ~~~ </h3> </footer>
+
+	</div>
+
+</body>
+</html>
